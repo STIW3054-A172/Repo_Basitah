@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.mycompany.mavenproject1;
 
 /**
@@ -7,8 +11,6 @@ package com.mycompany.mavenproject1;
  */
 public class ApplicationConstants {
  
-
-
     // Twitter application specific secret constants KEY WAS REMOVED TO PROTECT DEVELOPER TWITTER ACCOUNT https://apps.twitter.com/.   
     public static final String CONSUMER_KEY_KEY = "[INSERT CONSUMER KEY HERE]";
     public static final String CONSUMER_SECRET_KEY = "[INSERT TWITTER DEVELOPER CONSUMER SECRET KEY]";
