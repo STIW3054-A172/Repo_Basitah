@@ -20,17 +20,6 @@ import twitter4j.UserList;
 import twitter4j.UserStreamListener;
 import twitter4j.conf.ConfigurationBuilder;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author hp
- */
-
 public abstract class TwitterSpout implements IRichSpout {
  
     private SpoutOutputCollector collector;
