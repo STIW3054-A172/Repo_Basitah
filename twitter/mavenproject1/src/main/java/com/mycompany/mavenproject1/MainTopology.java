@@ -41,7 +41,7 @@ public class MainTopology {
         topologyBuilder.setBolt(ApplicationConstants.FILE_WRITER_BOLT_ID, new FileWriterBolt())
         .fieldsGrouping(ApplicationConstants.DETAILS_BOLT_ID, new Fields("title"))
         .fieldsGrouping(ApplicationConstants.RETWEET_DETAILS_BOLT_ID, new Fields("title"));    
-        // Config instance. It defines topology's runtime behavior.
+   
         Config config = new Config();    
         // To run storm in local mode.
  
