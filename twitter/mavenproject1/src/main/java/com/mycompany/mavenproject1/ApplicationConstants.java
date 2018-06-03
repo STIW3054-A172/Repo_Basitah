@@ -5,10 +5,7 @@
  */
 package com.mycompany.mavenproject1;
 
-/**
- *
- * @author hp
- */
+
 public class ApplicationConstants {
  
     // Twitter application specific secret constants.   
