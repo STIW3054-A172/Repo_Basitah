@@ -78,13 +78,7 @@ public class Read_write {
                 e.printStackTrace();
                 }
         }
-       public static void gitbash() throws IOException{
-    String[] command = {"C:\\Program Files\\Git\\git-bash.exe",
-                    };    
-        
-Runtime.getRuntime().exec(command);
-    
-    }
+      
 
     
      }
